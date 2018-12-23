@@ -13,7 +13,7 @@ h2 {
 }
 .button {
     display: block;
-    color: #09ff00;
+    color: #000000;
     font-family: 'Helvetica';
     background-color: transparent;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ h2 {
 }
 .button2 {
     display: block;
-    color: #09ff00;
+    color: #000000;
     font-family: 'Helvetica';
     background-color: transparent;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ h2 {
 }
 .button:target {
        display: block;
-            color:#ff0000;
+            color:#000000;
             font-family:'Helvetica';
             background-color: transparent;
             background-repeat: no-repeat;
@@ -127,7 +127,7 @@ h2 {
 }
 .button2:target {
     display: block;
-    color: #ff0000;
+    color: #000000;
     font-family: 'Helvetica';
     background-color: transparent;
     background-repeat: no-repeat;
