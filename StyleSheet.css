@@ -1,0 +1,174 @@
+﻿body {
+			background-color: transparent;
+			margin: 0px;
+}
+h1 {
+            color: #ffffff;
+            font-size: 40px;
+}
+h2 {
+    text-align: right;
+            color: #ffffff;
+            font-size: 40px;
+}
+.button {
+    display: block;
+    color: #09ff00;
+    font-family: 'Helvetica';
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+    top: 10px;
+    bottom: 500px;
+    float: left;
+    clear: both;
+}
+.button2 {
+    display: block;
+    color: #09ff00;
+    font-family: 'Helvetica';
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+    top: 10px;
+    bottom: 500px;
+    float: right;
+    clear: both;
+}
+.button:hover {
+    display: block;
+            color:#00d2ff;
+            font-family:'Helvetica';
+            background-color: transparent;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            outline: none;
+            border:none;
+            margin:0;
+            padding:2px;
+            cursor: pointer;
+            top: 10px;
+            bottom:500px;
+            text-align: right;
+}
+.button2:hover {
+    display: block;
+    color: #00d2ff;
+    font-family: 'Helvetica';
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+    top: 10px;
+    bottom: 500px;
+    text-align: right;
+}
+.button:active {
+    display: block;
+            color:#ffd800;
+            font-family:'Helvetica';
+            background-color: transparent;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            outline: none;
+            border:none;
+            margin:0;
+            padding:2px;
+            cursor: pointer;
+            top: 10px;
+            bottom:500px;
+            text-align: right;
+}
+.button2:active {
+    display: block;
+    color: #ffd800;
+    font-family: 'Helvetica';
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+    top: 10px;
+    bottom: 500px;
+    text-align: right;
+}
+.button:target {
+       display: block;
+            color:#ff0000;
+            font-family:'Helvetica';
+            background-color: transparent;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            outline: none;
+            border:none;
+            margin:0;
+            padding:2px;
+            cursor: pointer;
+            top: 10px;
+            bottom:500px;
+            text-align: right;
+}
+.button2:target {
+    display: block;
+    color: #ff0000;
+    font-family: 'Helvetica';
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+    top: 10px;
+    bottom: 500px;
+    text-align: right;
+}
+
+.b {
+    position: absolute;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    /*overflow: auto;
+    height: 110px;
+    scrollbar-track-color: #09ff00;
+    scrollbar-base-color: #09ff00;*/
+}
+.s {
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    /*overflow: auto;
+    height: 110px;
+    scrollbar-track-color: #09ff00;
+    scrollbar-base-color: #09ff00;*/
+}
+.target{
+  font-size:18px;
+  opacity: 0;
+  transform: translateX(40px);
+  transition: all 1.5s ease;
+}
+.target:target{
+  opacity: 1;
+  transform: translateX(0);
+}
